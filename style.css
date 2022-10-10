@@ -1,0 +1,35 @@
+.widget {
+  position: relative;
+  display: flex;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(19, 111, 105);
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.widget > button {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  top: 8px;
+  right: 8px;
+  border: none;
+  border-radius: 45%;
+  background: rgb(185, 68, 68);
+  color: white;
+  font-size: 20px;
+}
+.wrapper {
+    width: 1700px;
+    margin: 0 auto;
+}
+.wrap {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
